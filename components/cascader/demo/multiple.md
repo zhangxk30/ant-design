@@ -26,24 +26,24 @@ const options = [
       .map((_, index) => ({ label: `Number ${index}`, value: index })),
   },
   {
-    label: 'Bamboo',
-    value: 'bamboo',
+    label: '广州',
+    value: '广州',
     children: [
       {
         label: 'Little',
         value: 'little',
         children: [
           {
-            label: 'Toy Fish',
-            value: 'fish',
+            label: '广州一区',
+            value: '广州一区',
           },
           {
-            label: 'Toy Cards',
-            value: 'cards',
+            label: '广州二区',
+            value: '广州二区',
           },
           {
-            label: 'Toy Bird',
-            value: 'bird',
+            label: '广州三区',
+            value: '广州三区',
           },
         ],
       },
